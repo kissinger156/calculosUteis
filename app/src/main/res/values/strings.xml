@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">Cálculos Saudáveis</string>
+
+    <string name="imc">IMC</string> <!-- Indice de massa corporal-->
+    <string name="cfc">CFC</string> <!-- Calculo de frequencia cardiáca-->
+    <string name="tmb">TMB</string> <!-- Taxa metabólica basal-->
+    <string name="pdg">PDG</string> <!-- Percentual de gordura-->
+
+    <string name="verify">Os campos precisam ser preenchidos com valores acima de 0</string>
+    <string name="button_calc">calcular</string>
+
+    <string name="imc_meaning">O índice de massa corporal é uma medida internacional usada para calcular se uma pessoa está no peso ideal</string>
+    <string name="calc_imc">Cálculo: peso/altura²</string>
+    <string name="peso">Digite o peso (kg)</string>
+    <string name="altura">Digite a altura (cm)</string>
+    <string name="imc_response">Seu IMC é de: %1$.2f</string>
+
+    <string name="imc_severely_low_weight">Seu imc está: Severamente abaixo do peso</string>
+    <string name="imc_very_low_weight">Seu imc está: Muito abaixo do peso</string>
+    <string name="imc_low_weight">Seu imc está: Abaixo do peso</string>
+    <string name="normal">Seu imc está: Normal</string>
+    <string name="imc_high_weight">Seu imc está: Acima do peso</string>
+    <string name="imc_so_high_weight">Seu imc está: Moderamente obeso</string>
+    <string name="imc_severely_high_weight">Seu imc está: Severamente obeso</string>
+    <string name="imc_extreme_weight">Seu imc está: Extremamente Obeso</string>
+
+    <string name="cfc_meaning">O calculo de frequências cardiáca é importante para saber qual é qual nível de intensidade seu corpo suporta Batimentos cardiácos do seu corpo</string>
+    <string name="calc_cfc">Cálculo: 220 - sua idade (Obtendo sua frequência máxima) \n\n Em repouso, pressione as pontas dos dedos – não do polegar – em qualquer lado do pescoço, bem reto, sob a mandíbula. Conte o número de batidas por 15 segundos e multiplique por quatro. Você vai obter a frequência cardíaca por minuto</string>
+    <string name="batimentos">Digite o número de batimentos em 15s</string>
+    <string name="cfc_response">Sua Frequencia cardiáca é de: %1$.2f</string>
+    <string name="fc_normal">Sua frequência cardiáca está normal</string>
+    <string name="fc_high">Sua frequência está acima do normal</string>
+    <string name="fc_low">Sua frequência está abaixo do esperado</string>
+
+    <string name="tmb_meaning">Taxa metabólica basal é um meio/forma matemático, não exato, de calcular a quantidade calórica que o corpo necessita, em vinte e quatro horas, para manter-se nutrido durante</string>
+    <string name="calc_tmb">Cálculo: Para os homens: TMB = 66 + (13,8 x peso em kg.) + (5 x altura em cm) - (6,8 x idade em anos) \n\n Para as mulheres: TMB = 655 + (9,6 x peso em kg.) + (1,8 x altura em cm) - (4,7 x idade em anos)</string>
+    <string name="anos">Digite a sua idade</string>
+    <string name="man">HOMEM</string>
+    <string name="woman">MULHER</string>
+    <string name="tmb_response">"A sua taxa metabolica basal aproximada é de: %1$.2f"</string>
+    <string name="tmb_message">Esse é o valor aproximado de calorias diárias que você precisa</string>
+
+    <string name="pdg_meaning">O percentual de gordura, como o próprio nome indica, é a quantidade de gordura no seu corpo, comparado com tudo o mais (ossos, órgãos, tecidos, músculos, água, sangue etc.). A importância dele na aparência do seu corpo é vital</string>
+    <string name="calc_pdg">"Cálculo: O Calculo do percentual de gordura é feito com um equipamento chamando adipômetro. Métodos on-line não tem uma taxa alta de acertabilidade. "</string>
+    <string name="learn_more">Conheça mais clicando aqui</string>
+    <string name="save">Salvar</string>
+    <string name="calc_saved">Testo salvo com sucesso!</string>
+    <string name="search">Buscar</string>
+
+
+</resources>

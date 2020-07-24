@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="20dp"
+        tools:context=".activitys.ImcActivity">
+
+        <TextView
+            android:id="@+id/meaning"
+            style="@style/TextViewMeaningForm"
+            android:text="@string/imc_meaning"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/calc"
+            style="@style/TextViewCalcForm"
+            android:text="@string/calc_imc"
+            app:layout_constraintEnd_toEndOf="@id/meaning"
+            app:layout_constraintStart_toStartOf="@id/meaning"
+            app:layout_constraintTop_toBottomOf="@id/meaning" />
+
+        <EditText
+            android:id="@+id/edit_peso"
+            style="@style/EditTextForm"
+            android:hint="@string/peso"
+            app:layout_constraintTop_toBottomOf="@id/calc" />
+
+        <EditText
+            android:id="@+id/edit_altura"
+            style="@style/EditTextForm"
+            android:hint="@string/altura"
+            app:layout_constraintTop_toBottomOf="@id/edit_peso" />
+
+        <Button
+            android:id="@+id/button_calc"
+            style="@style/ButtonForm"
+            android:text="@string/button_calc"
+            app:layout_constraintTop_toBottomOf="@id/edit_altura"
+            android:background="@drawable/bg_button"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

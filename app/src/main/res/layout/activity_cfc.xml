@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="20dp"
+        tools:context=".activitys.CfcActivity">
+
+        <TextView
+            android:id="@+id/meaning"
+            style="@style/TextViewMeaningForm"
+            android:text="@string/cfc_meaning"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/calc"
+            style="@style/TextViewCalcForm"
+            android:text="@string/calc_cfc"
+            app:layout_constraintEnd_toEndOf="@id/meaning"
+            app:layout_constraintStart_toStartOf="@id/meaning"
+            app:layout_constraintTop_toBottomOf="@id/meaning" />
+
+        <EditText
+            android:id="@+id/edit_batimentos"
+            style="@style/EditTextForm"
+            android:layout_width="350dp"
+            android:hint="@string/batimentos"
+            app:layout_constraintTop_toBottomOf="@id/calc" />
+
+        <Button
+            android:id="@+id/button_calc"
+            style="@style/ButtonForm"
+            android:text="@string/button_calc"
+            app:layout_constraintTop_toBottomOf="@id/edit_batimentos"
+            android:background="@drawable/bg_button"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
